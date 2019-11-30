@@ -1,4 +1,4 @@
-package com.sdvstark.vintagemoviedb.util.impl
+package com.sdvstark.vintagemoviedb.util.impl.tree
 
 import com.sdvstark.vintagemoviedb.util.abstraction.tree.TreeBuilder
 import com.sdvstark.vintagemoviedb.util.abstraction.tree.TreeModel

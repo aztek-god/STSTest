@@ -1,14 +1,17 @@
 package com.sdvstark.vintagemoviedb
 
 import com.sdvstark.vintagemoviedb.util.abstraction.tree.TreeModel
-import com.sdvstark.vintagemoviedb.util.impl.MapTreeModelBuilder
+import com.sdvstark.vintagemoviedb.util.impl.tree.MapTreeModelBuilder
 import org.junit.Test
 
 class TreeBuilderTest {
 
     @Test
     fun testTreeBuilder() {
-        val builder = MapTreeModelBuilder(testData)
+        val builder =
+            MapTreeModelBuilder(
+                testData
+            )
 
         val children: List<TestTreeModel> = builder.getChildren(testData[0])
         println(children)
