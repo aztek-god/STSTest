@@ -1,4 +1,4 @@
-package com.sdvstark.vintagemoviedb.util.abstraction
+package com.sdvstark.vintagemoviedb.util.abstraction.tree
 
 /**
  * This interface interacts with TreeModel model classes with help to build

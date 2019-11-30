@@ -1,6 +1,6 @@
 package com.sdvstark.vintagemoviedb
 
-import com.sdvstark.vintagemoviedb.util.abstraction.TreeModel
+import com.sdvstark.vintagemoviedb.util.abstraction.tree.TreeModel
 import com.sdvstark.vintagemoviedb.util.impl.MapTreeModelBuilder
 import org.junit.Test
 
